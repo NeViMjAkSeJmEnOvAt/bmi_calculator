@@ -23,7 +23,6 @@ class BmiBuild(App):
         self.bmi = DEFAULTBMI
         return FloatLayout()
     def result(self, finalbmi):
-        if self.age >= 11:
             if finalbmi < 16:
                 self.root.ids.label_result_bmi.text = "Severe Thinnes"
             elif finalbmi > 16 and finalbmi <= 17:
