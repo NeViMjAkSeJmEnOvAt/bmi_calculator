@@ -1,0 +1,48 @@
+<FloatLayout>:
+
+    Label:
+        text: "BMI calculator"
+        font_size: '45sp'
+        color: 0, 0, 0, 1
+        pos: 5, 250
+
+    TextInput:
+        id: height
+        hint_text: "Insert your height"
+        pos: 100, 400
+        multiline: False
+        size_hint_x: None
+        size_hint_y: None
+        width: 200
+        height: 50
+        on_text: app.enterHeight()
+
+    TextInput:
+        id: weight
+        hint_text: "Insert your weight"
+        pos: 100, 300
+        multiline: False
+        size_hint_x: None
+        size_hint_y: None
+        width: 200
+        height: 50
+        on_text: app.enterWeight()
+
+    TextInput:
+        id: age
+        hint_text: "Insert your age"
+        pos: 100, 200
+        multiline: False
+        size_hint_x: None
+        size_hint_y: None
+        width: 200
+        height: 50
+        on_text: app.enterAge()
+
+    Button:
+        text:"Submit"
+        background_color: 1, 1, 1, 1
+        size: 100, 50
+        size_hint: None, None
+        pos: 100, 100
+        on_press:app.calculate(self)
