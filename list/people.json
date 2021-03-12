@@ -1,0 +1,22 @@
+{
+  "1": {
+    "name": "Pavel Novák",
+    "country": "CZE",
+    "rank": "Private",
+    "role": "Solider"
+        },
+
+  "2": {
+    "name": "Joseph Reil",
+    "country": "USA",
+    "rank": "Lieutenant",
+    "role": "Marksman"
+  },
+
+  "3": {
+    "name": "Joseph Brown",
+    "country": "CAN",
+    "rank": "Major General",
+    "role": "Commander"
+  }
+}

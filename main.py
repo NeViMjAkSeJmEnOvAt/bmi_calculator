@@ -1,2 +1,4 @@
-from calculator import kivybmi
-kivybmi.BmiBuild()
+#from calculator import kivybmi
+from list import peoplefile
+#kivybmi.BmiBuild()
+peoplefile.ListBuild()
