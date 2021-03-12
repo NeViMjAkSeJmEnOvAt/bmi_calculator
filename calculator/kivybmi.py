@@ -34,7 +34,7 @@ class BmiBuild(App):
             elif finalbmi > 25 and finalbmi <= 30:
                 self.root.ids.label_result_bmi.text = "Qwerweight"
             elif finalbmi > 30 and finalbmi <= 35:
-                self.root.ids.label_result_bmi.text = "Mildly Obese"
+                self.root.ids.label_result_bmi.text = "Slightly Obese"
             elif finalbmi > 35 and finalbmi <= 40:
                 self.root.ids.label_result_bmi.text = "Obese"
             else:
@@ -53,26 +53,26 @@ class BmiBuild(App):
     def enterHeight(self):
         height = self.root.ids.height.text
         print(height)
-        if int(height) > 0:
-            self.height = float(height)
+        if height != '':
+            self.height = int(height)
         else:
-            self.height = int(DEFAULTH)
+            self.height = DEFAULTH
 
     def enterWeight(self):
         weight = self.root.ids.weight.text
         print(weight)
-        if int(weight) > 0:
-            self.weight = float(weight)
+        if weight != '':
+            self.weight = int(weight)
         else:
-            self.weight = int(DEFAULTW)
+            self.weight = DEFAULTW
 
     def enterAge(self):
         age = self.root.ids.age.text
         print(age)
-        if int(age) > 0:
-            self.age = float(age)
+        if age != '':
+            self.age = int(age)
         else:
-            self.age = int(DEFAULTA)
+            self.age = DEFAULTA
 
 
 root = BmiBuild()
