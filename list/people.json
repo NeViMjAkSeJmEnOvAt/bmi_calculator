@@ -1,6 +1,6 @@
 {
   "1": {
-    "name": "Pavel Novák",
+    "name": "Pavel Novak",
     "country": "CZE",
     "rank": "Private",
     "role": "Solider"
@@ -18,5 +18,26 @@
     "country": "CAN",
     "rank": "Major General",
     "role": "Commander"
+  },
+
+  "4": {
+    "name": "Pavel Blazkowicz",
+    "country": "PL",
+    "rank": "Corporal",
+    "role": "Grenadier"
+  },
+
+  "5": {
+    "name": "Jenny Blue",
+    "country": "UK",
+    "rank": "Specialist",
+    "role": "Engineer"
+  },
+
+  "6": {
+    "name": "David Novy",
+    "country": "CZK",
+    "rank": "Specialist",
+    "role": "Gunner"
   }
 }

@@ -1,4 +1,5 @@
-#from calculator import kivybmi
-from list import peoplefile
+#from list import peoplefile
+from startApp import start
 #kivybmi.BmiBuild()
-peoplefile.ListBuild()
+#peoplefile.ListBuild()
+start.Start()
